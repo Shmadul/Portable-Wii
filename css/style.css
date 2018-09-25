@@ -1,0 +1,246 @@
+body {
+	background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1 {
+	color: #32CD32;
+	border: 3px solid green;
+	text-align: center;
+}
+
+h2 {
+	color: #32CD32;
+	font-size: 30px;
+}
+
+h3 {
+	color: #32CD32;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+p {
+ 	color: #00ecff;
+ 	font-size: 15px;
+ 	text-align: center;
+}
+
+li {
+	color: #32CD32;
+ 	font-size: 15px;
+ 	text-align: left;
+ 	font-style: italic;
+ }
+
+ol {
+ 	color: #00ecff;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	font-style: bold;
+}
+
+ul {
+ 	color: #00ecff;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	font-style: bold;
+ 	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+blockquote {
+	color: #32CD32;
+    display: block;
+    text-align: left;
+}
+
+.blue {
+	
+	background-color: blue;
+}
+
+.row1 {
+	background-color: green;
+}
+
+
+
+table{
+	width: 100%; 
+	color:  #00ecff;
+	text-align: center;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+
+}
+}
+
+tr:hover {
+	background-color: #32CD32;
+	padding-left: 5px;  
+	border-spacing: 15px;
+}
+table, th, td {
+   border: 1px solid red;
+}
+
+th {
+	background-color: #00ecff;
+	color:  #32CD32;
+}
+
+
+table, td {
+   border-collapse: collapse;
+}
+
+.wii {
+	text-align: center;
+	border: 3px solid green;
+	padding: 40px 40px;
+	overflow: auto;
+}
+
+.wii h2 {
+	color: #32CD32;
+	font-size: 30px;
+	text-align: left;
+	padding-left: 190px;
+}
+
+.wii_img {
+	width: 600px;
+	height: 450px;
+	float: left;
+	padding-right: 30px;
+}
+
+.wii_img2 {
+	width: 600px;
+	height: 450px;
+	padding-right: 30px;
+}
+
+.lists {
+	padding: 0 140px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wii_info {
+	text-align: center;
+	border: 3px solid green;
+	padding: 40px 40px;
+	overflow: auto;
+}
+
+.wii_info h3 {
+	color: #32CD32;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 650px;
+}
+
+.wii_info p {
+	font-size: 15px;
+ 	text-align: left;
+}
+
+.link {
+	color: #32CD32;
+}
+
+.tlink {
+	color: #32CD32;
+}
+
+.link:hover {
+	color: #00ecff;
+}
+
+.about {
+	color: #00ecff;
+	text-align: center;
+}
+.about2 {
+	padding-top: 290px;
+}
+
+.about3 {
+	padding-top: 300px;
+}
+
+.about4 {
+	padding-top: 310px;
+}
+.footer {
+	border: 3px solid green;
+	color: #32CD32;
+	font-style: bold;
+	text-align: center;
+	
+}
+
+.col{
+	background-color:yellow;
+}
+
+.col2 {
+	background-color:red;
+}
+
+.optgroup {
+	color: #32CD32;
+	background-color: #00ecff;
+}
+
+.textarea {
+	color: #32CD32;
+}
+
+.form {
+	border: 3px solid green;
+}
+
+input:focus { 
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 500px) {
+
+  img {
+  	height:auto ;
+  	max-width: 300px;
+  }
+
+
+
+}

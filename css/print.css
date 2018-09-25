@@ -1,0 +1,19 @@
+/* Hidden Objects */
+
+header {
+   display: none;
+}
+
+a {
+   display: none;
+}
+
+footer {
+   display: none;
+}
+/* Page Box Styles */
+
+@page {
+   size: 8.5in 11in;
+   margin: 0.5in;
+}
